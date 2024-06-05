@@ -1,0 +1,64 @@
+{% extends "base.html" %} {%block title %}<title>Изменить сотрудника</title
+>{%endblock%} {%block content%}
+<h2>Staff Edit</h2>
+<p>{{staff}}</p>
+<form
+    method="post"
+    action="{% url 'staff_edit' %}"
+    enctype="multipart/form-data"
+>
+    {% csrf_token %}
+    <label for="username">Username:</label>
+    <input
+        type="text"
+        id="username"
+        name="username"
+        value="{{staff.staff.username}}"
+        required
+    /><br /><br />
+    <label for="password">Password:</label>
+    <input
+        type="text"
+        id="password"
+        name="password"
+        value="{{staff.staff.password}}"
+        required
+    /><br /><br />
+    <label for="name">Name:</label>
+    <input
+        type="text"
+        id="name"
+        name="name"
+        value="{{staff.name}}"
+        required
+    /><br /><br />
+    <label for="phonenumber">Phonenumber:</label>
+    <input
+        type="text"
+        id="phonenumber"
+        name="phonenumber"
+        value="{{staff.phonenumber}}"
+        pattern="^\+375 \(\d{2}\) \d{3}-\d{2}-\d{2}$"
+        required
+    /><br /><br />
+    <label for="email">Email:</label>
+    <input
+        type="email"
+        id="email"
+        name="email"
+        value="{{staff.email}}"
+        required
+    /><br /><br />
+    <input type="file" id="photo" name="photo" value="{{staff.picture}}" />
+    <br /><br />
+    <label for="profession">Profession:</label>
+    <input
+        type="text"
+        id="profession"
+        name="profession"
+        value="{{staff.profession}}"
+        required
+    /><br /><br />
+    <input type="submit" value="Login" />
+</form>
+{%endblock%}

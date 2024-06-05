@@ -1,0 +1,15 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Инфо по клиентам</title
+>{%endblock%}
+<h1>Инфо по клиентам</h1>
+<ul>
+    {% for customer in customer_list %}
+    <li>
+        <h2>{{ customer.customer.username }}</h2>
+        <p>Телефон: {{ customer.phonenumber }}</p>
+        <p>Город: {{ customer.city }}</p>
+        <p>Адрес: {{ customer.address }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock%}

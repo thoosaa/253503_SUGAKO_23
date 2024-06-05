@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}
+<title>Выручка за {{ month }}</title>
+{% endblock %} {% block content %}
+<h1>Выручка за {{ month }}</h1>
+<ul>
+    {% for item in monthly_sales_volume %}
+    <li>{{ item.toy__type__name }} - Total Sales: {{ item.total_sales }}</li>
+    <ul>
+        {% for sale in Sale.objects.filter(toy__type__name=item.toy__type__name,
+        order_date__month=current_month, order_date__year=current_year) %}
+        <li>
+            Order Date: {{ sale.order_date }} - Quantity: {{ sale.quantity }} -
+            Toy: {{ sale.toy.name }} - Customer: {{
+            sale.customer.customer.username }} - Price: {{ sale.price }}
+        </li>
+        {% endfor %}
+    </ul>
+</ul>
+{% endblock %}

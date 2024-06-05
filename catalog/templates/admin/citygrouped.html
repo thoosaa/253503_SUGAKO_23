@@ -1,0 +1,14 @@
+{% extends "base.html" %} {%block title %}<title>Покупатели по городам</title
+>{%endblock%} {%block content%}
+<h1>Покупатели по городам</h1>
+{% for city, customers in customers_by_city.items %}
+<h2>{{ city }}</h2>
+<ul>
+    {% for customer in customers %}
+    <li>
+        {{ customer.customer.username }} - {{ customer.phonenumber }} -
+        {{customer.address }}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %} {%endblock%}

@@ -1,0 +1,26 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Базовая статистика</title
+>{%endblock%}
+<h2>Базовая статистика</h2>
+
+<h3>Список пользователей</h3>
+<ul>
+    {% for customer in customer_list %}
+    <li>
+        <h4>{{ customer.name }}</h4>
+        <p>{{ customer.phonenumber }}</p>
+        <p>{{customer.city}} {{customer.address}}</p>
+    </li>
+
+    {% endfor %}
+</ul>
+
+<h3>Статистические показатели по продажам</h3>
+<p>Среднее арифметическое: <b> {{av}} </b></p>
+<p>Медиана: <b> {{median}} </b></p>
+<p>Мода: <b> {{mode}} </b></p>
+
+<h3>Игрушка, пользующаяся наибольшим спросом - {{popular_toy.toy__name}}</h3>
+<h3>Игрушка, пользующаяся наименьшим спросом - {{unpopular_toy.toy__name}}</h3>
+
+{% endblock %}

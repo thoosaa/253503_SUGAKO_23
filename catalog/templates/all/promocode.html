@@ -1,0 +1,32 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Промокоды</title
+>{%endblock%}
+<h1>Список промокодов</h1>
+<p>Собака дня</p>
+<img src="{{ dog_image }}" height="200" />
+<ul>
+    {% for code in code_list %}
+    <li>
+        <h2>{{ code.code }}</h2>
+        <h3>Скидка : {{code.discount}} %</h3>
+        {% if code.is_valid %}
+        <p>Expires in: {{ code.expiration }}</p>
+        {% else %}
+        <p>Expired</p>
+        {%endif%}
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Categories Promocode List</h1>
+<p>Собака дня</p>
+<img src="{{ dog_image_1 }}" height="200" />
+<ul>
+    {% for type in type_list %}
+    <li>
+        <h2>{{ type.name }}</h2>
+        <p>Promocodes : {{type.display_promocode}}</p>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock%}

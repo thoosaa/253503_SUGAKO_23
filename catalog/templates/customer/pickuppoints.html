@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title%}
+<title>Точки самовывоза</title>
+{% endblock%} {%block content%}
+<h1>Точки самовывоза</h1>
+<ul>
+    {% for point in point_list %}
+    <li>
+        <h2>{{ point.adress }}</h2>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock%}

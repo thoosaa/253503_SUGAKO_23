@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {%block title %}{%endblock%}
+    </head>
+    <body>
+        <h1>Фабрика игрушек</h1>
+        {% if user.is_superuser %}
+        <p>Суперюзер: <b>{{user}}</b></p>
+        <p>Действия с аккаунтом для суперюзера</p>
+        <ul>
+            <li>
+                <a href="{% url 'citygrouped'%}"
+                    >Список заказчиков с группировкой по городам</a
+                >
+            </li>
+            <li><a href="{% url 'basestat' %}">Базовая статистика</a></li>
+            <li><a href="{% url 'analysis' %}">Анализ данных</a></li>
+            <li><a href="{% url 'log_out' %}">Выйти</a></li>
+        </ul>
+        {% elif user.is_staff %}
+        <p>Сотрудник: <b>{{user}}</b></p>
+        <p>Действия с аккаунтом для сотрудника</p>
+        <ul>
+            <li><a href="{% url 'staff_read' %}">Просмотреть аккаунт</a></li>
+            <li><a href="{% url 'staff_edit' %}">Изменить аккаунт</a></li>
+            <li><a href="/delete/{{user.id}}">Удалить аккаунт</a></li>
+            <li><a href="{% url 'log_out' %}">Выйти</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="{% url 'salesinfo' %}">Информация о продажах</a></li>
+            <li><a href="{% url 'clientinfo' %}">Клиенты</a></li>
+        </ul>
+        {% elif user.is_customer %}
+        <p>Покупатель: <b>{{user}}</b></p>
+        <p>Действия с аккаунтом для покупателя</p>
+        <ul>
+            <li><a href="{% url 'customer_read' %}">Просмотреть аккаунт</a></li>
+            <li><a href="{% url 'customer_edit' %}">Изменить аккаунт</a></li>
+            <li><a href="/delete/{{user.id}}">Удалить аккаунт</a></li>
+            <li><a href="{% url 'log_out' %}">Выйти</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="{% url 'pickuplist' %}">Точки самовывоза</a></li>
+            <li><a href="{% url 'feedback form' %}">Оставить отзыв</a></li>
+        </ul>
+        {% else %}
+
+        <p>Authenticate</p>
+        <ul>
+            <li>
+                <a href="{% url 'customer_register' %}"
+                    >Регистрация покупателя</a
+                >
+            </li>
+            <li>
+                <a href="{% url 'customer_login' %}">Вход покупателя</a>
+            </li>
+            <li>
+                <a href="{% url 'staff_login' %}">Вход для сотрудника</a>
+            </li>
+        </ul>
+        {% endif %}
+        <p>Main pages</p>
+        <ul>
+            <li>
+                <a href="{% url 'home' %}">Главная</a>
+            </li>
+            <li>
+                <a href="{% url 'about' %}">О компании </a>
+            </li>
+            <li>
+                <a href="{% url 'news' %}">Новости </a>
+            </li>
+            <li>
+                <a href="{% url 'faq' %}">Словарь терминов и понятий </a>
+            </li>
+            <li>
+                <a href="{% url 'contact' %}">Контакты </a>
+            </li>
+            <li>
+                <a href="{% url 'confidentiality' %}"
+                    >Политика конфиденциальности
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'jobs' %}">Вакансии </a>
+            </li>
+            <li>
+                <a href="{% url 'feedback' %}">Отзывы </a>
+            </li>
+            <li>
+                <a href="{% url 'promocode' %}">Промокоды и купоны</a>
+            </li>
+            <li>
+                <a href="{% url 'catalogue' %}">Каталог</a>
+            </li>
+        </ul>
+
+        {%block content%} {% endblock %}
+    </body>
+</html>

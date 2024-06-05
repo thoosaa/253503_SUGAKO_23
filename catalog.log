@@ -1,0 +1,387 @@
+2024-05-14 13:48:07,097 WARNING catalog Customer account does not exist: kujo
+2024-05-14 14:16:04,801 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:16:04,888 WARNING catalog Customer account does not exist: nonexistentuser
+2024-05-14 14:17:45,707 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:21:03,398 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:21:03,419 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:21:03,423 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:21:03,426 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:23:24,708 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:23:24,733 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:23:24,737 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:23:24,740 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:24:47,907 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:24:47,930 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:24:47,933 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:24:47,937 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:24:47,953 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:26:36,173 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:26:36,196 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:26:36,200 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:26:36,204 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:26:36,221 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:26:36,233 INFO catalog Customer profile page accessed
+2024-05-14 14:26:36,248 INFO catalog Customer profile page accessed
+2024-05-14 14:27:07,984 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:27:08,006 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:27:08,009 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:27:08,012 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:27:08,028 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:27:08,040 INFO catalog Customer profile page accessed
+2024-05-14 14:27:08,047 INFO catalog Customer profile page accessed
+2024-05-14 14:28:17,266 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:28:17,289 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:28:17,293 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:28:17,298 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:28:17,315 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:28:17,326 INFO catalog Customer profile page accessed
+2024-05-14 14:28:17,333 INFO catalog Customer profile page accessed
+2024-05-14 14:31:30,661 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:31:30,683 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:31:30,687 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:31:30,690 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:31:30,706 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:31:30,730 INFO catalog Customer profile page accessed
+2024-05-14 14:31:30,737 INFO catalog Customer profile page accessed
+2024-05-14 14:32:53,996 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:32:54,018 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:32:54,021 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:32:54,025 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:32:54,040 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:32:54,369 INFO catalog User testuser deleted.
+2024-05-14 14:32:55,302 INFO catalog Customer profile page accessed
+2024-05-14 14:32:55,308 INFO catalog Customer profile page accessed
+2024-05-14 14:33:39,226 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:33:39,248 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:33:39,251 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:33:39,255 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:33:39,269 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:33:39,590 INFO catalog User testuser deleted.
+2024-05-14 14:33:40,525 INFO catalog Customer profile page accessed
+2024-05-14 14:33:40,532 INFO catalog Customer profile page accessed
+2024-05-14 14:35:07,286 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:35:07,308 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:35:07,311 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:35:07,315 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:35:07,329 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:35:07,651 INFO catalog User testuser deleted.
+2024-05-14 14:35:08,268 INFO catalog User testuser logged out.
+2024-05-14 14:35:08,580 INFO catalog Customer profile page accessed
+2024-05-14 14:35:08,586 INFO catalog Customer profile page accessed
+2024-05-14 14:38:30,425 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:38:30,446 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:38:30,449 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:38:30,453 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:38:30,477 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:38:30,798 INFO catalog User testuser deleted.
+2024-05-14 14:38:31,416 INFO catalog User testuser logged out.
+2024-05-14 14:38:31,728 INFO catalog Customer profile page accessed
+2024-05-14 14:38:31,733 INFO catalog Customer profile page accessed
+2024-05-14 14:39:13,638 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:39:13,660 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:39:13,663 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:39:13,666 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:39:13,689 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:39:14,012 INFO catalog User testuser deleted.
+2024-05-14 14:39:14,628 INFO catalog User testuser logged out.
+2024-05-14 14:39:14,939 INFO catalog Customer profile page accessed
+2024-05-14 14:39:14,946 INFO catalog Customer profile page accessed
+2024-05-14 14:41:34,431 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:41:34,453 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:41:34,456 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:41:34,460 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:41:34,484 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:41:34,807 INFO catalog User testuser deleted.
+2024-05-14 14:41:35,430 INFO catalog User testuser logged out.
+2024-05-14 14:41:35,743 INFO catalog Customer profile page accessed
+2024-05-14 14:41:35,749 INFO catalog Customer profile page accessed
+2024-05-14 14:43:23,181 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:43:23,203 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:43:23,206 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:43:23,210 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:43:23,269 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:43:23,615 INFO catalog User testuser deleted.
+2024-05-14 14:43:24,261 INFO catalog User testuser logged out.
+2024-05-14 14:43:24,573 INFO catalog Customer profile page accessed
+2024-05-14 14:43:24,582 INFO catalog Customer profile page accessed
+2024-05-14 14:45:09,576 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:45:09,599 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:45:09,602 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:45:09,605 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:45:09,657 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:45:09,982 INFO catalog User testuser deleted.
+2024-05-14 14:45:10,600 INFO catalog User testuser logged out.
+2024-05-14 14:45:10,913 INFO catalog Customer profile page accessed
+2024-05-14 14:45:10,919 INFO catalog Customer profile page accessed
+2024-05-14 14:45:31,269 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:45:31,290 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:45:31,293 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:45:31,297 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:45:31,362 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:45:31,684 INFO catalog User testuser deleted.
+2024-05-14 14:45:32,315 INFO catalog User testuser logged out.
+2024-05-14 14:45:32,633 INFO catalog Customer profile page accessed
+2024-05-14 14:45:32,639 INFO catalog Customer profile page accessed
+2024-05-14 14:46:23,176 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:46:23,198 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:46:23,201 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:46:23,204 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:46:23,244 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:46:23,565 INFO catalog User testuser deleted.
+2024-05-14 14:46:24,180 INFO catalog User testuser logged out.
+2024-05-14 14:46:24,492 INFO catalog Customer profile page accessed
+2024-05-14 14:46:24,498 INFO catalog Customer profile page accessed
+2024-05-14 14:51:09,060 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:51:09,082 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:51:09,085 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:51:09,089 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:51:09,128 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:51:09,451 INFO catalog User testuser deleted.
+2024-05-14 14:51:10,079 INFO catalog User testuser logged out.
+2024-05-14 14:51:10,392 INFO catalog Customer profile page accessed
+2024-05-14 14:51:10,398 INFO catalog Customer profile page accessed
+2024-05-14 14:56:52,068 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:56:52,089 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:56:52,092 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:56:52,096 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:56:52,112 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:56:52,440 INFO catalog User testuser deleted.
+2024-05-14 14:56:53,070 INFO catalog User testuser logged out.
+2024-05-14 14:56:53,386 INFO catalog Customer profile page accessed
+2024-05-14 14:56:53,391 INFO catalog Customer profile page accessed
+2024-05-14 14:57:58,390 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:57:58,413 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:57:58,416 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:57:58,419 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:57:58,434 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:57:58,757 INFO catalog User testuser deleted.
+2024-05-14 14:57:59,375 INFO catalog User testuser logged out.
+2024-05-14 14:57:59,687 INFO catalog Customer profile page accessed
+2024-05-14 14:57:59,693 INFO catalog Customer profile page accessed
+2024-05-14 14:58:54,380 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:58:54,402 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:58:54,406 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:58:54,409 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:58:54,425 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:58:54,751 INFO catalog User testuser deleted.
+2024-05-14 14:58:55,370 INFO catalog User testuser logged out.
+2024-05-14 14:58:55,683 INFO catalog Customer profile page accessed
+2024-05-14 14:58:55,689 INFO catalog Customer profile page accessed
+2024-05-14 14:59:23,656 INFO catalog Customer logged in: testcustomer
+2024-05-14 14:59:23,678 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:59:23,681 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 14:59:23,685 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 14:59:23,700 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 14:59:24,023 INFO catalog User testuser deleted.
+2024-05-14 14:59:24,642 INFO catalog User testuser logged out.
+2024-05-14 14:59:24,954 INFO catalog Customer profile page accessed
+2024-05-14 14:59:24,959 INFO catalog Customer profile page accessed
+2024-05-14 15:00:14,410 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:00:14,432 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:00:14,435 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:00:14,439 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:00:14,456 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:00:14,780 INFO catalog User testuser deleted.
+2024-05-14 15:00:15,395 INFO catalog User testuser logged out.
+2024-05-14 15:00:15,707 INFO catalog Customer profile page accessed
+2024-05-14 15:00:15,713 INFO catalog Customer profile page accessed
+2024-05-14 15:01:00,408 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:01:00,429 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:01:00,433 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:01:00,436 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:01:00,452 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:01:00,772 INFO catalog User testuser deleted.
+2024-05-14 15:01:01,389 INFO catalog User testuser logged out.
+2024-05-14 15:01:01,700 INFO catalog Customer profile page accessed
+2024-05-14 15:01:01,706 INFO catalog Customer profile page accessed
+2024-05-14 15:03:43,948 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:03:43,970 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:03:43,974 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:03:43,978 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:03:44,021 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:03:44,344 INFO catalog User testuser deleted.
+2024-05-14 15:03:45,041 INFO catalog User testuser logged out.
+2024-05-14 15:03:45,363 INFO catalog Customer profile page accessed
+2024-05-14 15:03:45,371 INFO catalog Customer profile page accessed
+2024-05-14 15:06:19,332 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:06:19,354 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:06:19,358 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:06:19,361 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:06:19,403 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:06:19,728 INFO catalog User testuser deleted.
+2024-05-14 15:06:20,347 INFO catalog User testuser logged out.
+2024-05-14 15:06:20,658 INFO catalog Customer profile page accessed
+2024-05-14 15:06:20,664 INFO catalog Customer profile page accessed
+2024-05-14 15:07:05,038 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:07:05,060 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:07:05,063 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:07:05,066 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:07:05,107 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:07:05,430 INFO catalog User testuser deleted.
+2024-05-14 15:07:06,047 INFO catalog User testuser logged out.
+2024-05-14 15:07:06,359 INFO catalog Customer profile page accessed
+2024-05-14 15:07:06,365 INFO catalog Customer profile page accessed
+2024-05-14 15:07:19,304 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:07:19,326 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:07:19,330 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:07:19,333 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:07:19,375 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:07:19,694 INFO catalog User testuser deleted.
+2024-05-14 15:07:20,310 INFO catalog User testuser logged out.
+2024-05-14 15:07:20,620 INFO catalog Customer profile page accessed
+2024-05-14 15:07:20,627 INFO catalog Customer profile page accessed
+2024-05-14 15:16:20,645 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:16:20,667 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:16:20,671 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:16:20,674 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:16:20,715 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:16:21,035 INFO catalog User testuser deleted.
+2024-05-14 15:16:21,656 INFO catalog User testuser logged out.
+2024-05-14 15:16:21,964 INFO catalog Customer profile page accessed
+2024-05-14 15:16:21,971 INFO catalog Customer profile page accessed
+2024-05-14 15:25:15,343 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:25:15,364 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:25:15,367 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:25:15,370 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:25:15,410 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:25:15,729 INFO catalog User testuser deleted.
+2024-05-14 15:25:16,340 INFO catalog User testuser logged out.
+2024-05-14 15:25:16,648 INFO catalog Customer profile page accessed
+2024-05-14 15:25:16,655 INFO catalog Customer profile page accessed
+2024-05-14 15:25:40,007 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:25:40,028 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:25:40,031 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:25:40,035 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:25:40,062 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:25:40,382 INFO catalog User testuser deleted.
+2024-05-14 15:25:40,994 INFO catalog User testuser logged out.
+2024-05-14 15:25:41,303 INFO catalog Customer profile page accessed
+2024-05-14 15:25:41,311 INFO catalog Customer profile page accessed
+2024-05-14 15:35:44,718 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:35:44,742 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:35:44,745 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:35:44,750 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:35:44,778 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:35:45,101 INFO catalog User testuser deleted.
+2024-05-14 15:35:45,716 INFO catalog User testuser logged out.
+2024-05-14 15:35:46,026 INFO catalog Customer profile page accessed
+2024-05-14 15:35:46,033 INFO catalog Customer profile page accessed
+2024-05-14 15:36:02,097 INFO catalog Customer logged in: testcustomer
+2024-05-14 15:36:02,129 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:36:02,134 WARNING catalog Staff account with username nonexistentstaff does not exist.
+2024-05-14 15:36:02,138 INFO catalog Staff member teststaff logged in successfully.
+2024-05-14 15:36:02,164 INFO catalog Customer profile edited by staff member testcustomer
+2024-05-14 15:36:02,485 INFO catalog User testuser deleted.
+2024-05-14 15:36:03,105 INFO catalog User testuser logged out.
+2024-05-14 15:36:03,417 INFO catalog Customer profile page accessed
+2024-05-14 15:36:03,423 INFO catalog Customer profile page accessed
+2024-05-14 15:47:50,168 INFO catalog Catalog page accessed
+2024-05-14 16:23:24,085 INFO catalog Catalog page accessed
+2024-05-14 16:24:36,439 INFO catalog Catalog page accessed
+2024-05-14 16:25:41,940 INFO catalog Catalog page accessed
+2024-05-14 18:39:23,793 INFO catalog Home page accessed
+2024-05-14 18:39:44,179 INFO catalog Home page accessed
+2024-05-14 18:39:47,809 INFO catalog Base statistics page accessed.
+2024-05-14 18:39:52,523 INFO catalog Analysis page accessed by superuser.
+2024-05-14 19:13:55,892 INFO catalog Home page accessed
+2024-05-14 19:14:00,341 INFO catalog Analysis page accessed by superuser.
+2024-05-14 19:18:01,969 INFO catalog Analysis page accessed by superuser.
+2024-05-20 11:00:27,301 INFO catalog Home page accessed
+2024-05-20 11:00:38,169 INFO catalog User Petr logged out.
+2024-05-20 11:00:38,180 INFO catalog Home page accessed
+2024-05-20 11:00:49,711 WARNING catalog Customer account does not exist: Kujo
+2024-05-20 11:03:45,362 INFO catalog New customer registered: Kujo
+2024-05-20 11:03:58,923 INFO catalog Customer logged in: Kujo
+2024-05-20 11:03:58,935 INFO catalog Home page accessed
+2024-05-20 11:04:41,238 INFO catalog Customer profile page accessed
+2024-05-20 11:05:21,711 INFO catalog Customer profile page accessed
+2024-05-20 11:10:19,439 INFO catalog Customer profile page accessed
+2024-05-20 11:11:14,279 INFO catalog Pickup points list page accessed.
+2024-05-20 11:11:19,685 INFO catalog Home page accessed
+2024-05-20 11:11:20,868 INFO catalog About page accessed
+2024-05-20 11:11:23,181 INFO catalog News page accessed
+2024-05-20 14:16:57,905 INFO catalog Home page accessed
+2024-05-20 14:21:44,790 INFO catalog Home page accessed
+2024-05-20 14:21:46,727 INFO catalog User Petr logged out.
+2024-05-20 14:21:46,748 INFO catalog Home page accessed
+2024-05-20 14:21:59,150 WARNING catalog Customer account does not exist: Bruno
+2024-05-20 14:22:12,510 INFO catalog Staff member Bruno logged in successfully.
+2024-05-20 14:22:12,534 INFO catalog Home page accessed
+2024-05-20 14:22:15,928 INFO catalog Sales info page accessed
+2024-05-20 14:23:35,646 INFO catalog Sales info page accessed
+2024-05-20 14:29:09,060 INFO catalog Catalog page accessed
+2024-05-20 14:29:47,413 INFO catalog Catalog page accessed
+2024-05-20 14:29:56,448 INFO catalog City grouped page accessed.
+2024-05-20 14:30:12,590 INFO catalog Analysis page accessed by superuser.
+2024-05-20 14:30:50,279 INFO catalog User Petr logged out.
+2024-05-20 14:30:50,300 INFO catalog Home page accessed
+2024-05-20 14:30:55,759 INFO catalog Contact list page accessed
+2024-05-20 14:31:10,422 INFO catalog Staff member Bruno logged in successfully.
+2024-05-20 14:31:10,465 INFO catalog Home page accessed
+2024-05-20 14:31:13,543 INFO catalog Client info page accessed
+2024-05-20 14:31:43,510 INFO catalog Home page accessed
+2024-05-20 14:31:44,316 INFO catalog About page accessed
+2024-05-20 14:31:46,373 INFO catalog FAQ list page accessed
+2024-05-20 14:31:46,758 INFO catalog News page accessed
+2024-05-20 14:32:18,072 INFO catalog FAQ list page accessed
+2024-05-20 14:32:20,639 INFO catalog FAQ list page accessed
+2024-05-20 14:32:37,736 INFO catalog FAQ list page accessed
+2024-05-20 14:32:38,756 INFO catalog FAQ list page accessed
+2024-05-20 14:32:49,333 INFO catalog FAQ list page accessed
+2024-05-20 14:33:07,128 INFO catalog FAQ list page accessed
+2024-05-20 14:36:35,012 INFO catalog Contact list page accessed
+2024-05-20 14:36:38,306 INFO catalog Politics of confidentiality page accessed
+2024-05-20 14:36:40,073 INFO catalog Job page accessed
+2024-05-20 14:36:44,450 INFO catalog Feedback page accessed
+2024-05-20 14:36:51,116 INFO catalog Promocode page accessed
+2024-05-20 14:36:58,298 INFO catalog Catalog page accessed
+2024-05-20 14:40:35,596 INFO catalog User Bruno logged out.
+2024-05-20 14:40:35,636 INFO catalog Home page accessed
+2024-05-20 14:41:10,377 INFO catalog Home page accessed
+2024-05-20 14:41:23,525 INFO catalog Home page accessed
+2024-05-20 14:41:29,310 INFO catalog About page accessed
+2024-05-20 14:41:34,829 INFO catalog News page accessed
+2024-05-20 14:41:36,173 INFO catalog News page accessed
+2024-05-20 14:41:54,318 INFO catalog FAQ list page accessed
+2024-05-20 14:41:59,032 INFO catalog Contact list page accessed
+2024-05-20 14:42:05,013 INFO catalog Politics of confidentiality page accessed
+2024-05-20 14:42:07,239 INFO catalog Job page accessed
+2024-05-20 14:42:10,943 INFO catalog Feedback page accessed
+2024-05-20 14:42:18,688 INFO catalog Promocode page accessed
+2024-05-20 14:42:20,274 INFO catalog Promocode page accessed
+2024-05-20 14:42:20,614 INFO catalog Promocode page accessed
+2024-05-20 14:42:32,312 INFO catalog Catalog page accessed
+2024-05-20 14:42:45,709 INFO catalog Toys sorted by price in ascending order.
+2024-05-20 14:42:53,990 INFO catalog Toys sorted by price in descending order.
+2024-05-20 14:42:56,101 INFO catalog Toys sorted by category.
+2024-05-20 14:44:12,510 INFO catalog Customer logged in: Kujo
+2024-05-20 14:44:12,537 INFO catalog Home page accessed
+2024-05-20 14:44:28,581 INFO catalog Customer profile page accessed
+2024-05-20 14:44:59,105 INFO catalog Customer profile edited by staff member Kujo
+2024-05-20 14:44:59,118 INFO catalog Home page accessed
+2024-05-20 14:45:01,776 INFO catalog Customer profile page accessed
+2024-05-20 14:45:09,717 INFO catalog Pickup points list page accessed.
+2024-05-20 14:45:36,951 INFO catalog Feedback saved by customer Kujo
+2024-05-20 14:45:36,964 INFO catalog Home page accessed
+2024-05-20 14:45:39,865 INFO catalog Feedback page accessed
+2024-05-20 14:45:57,800 INFO catalog Catalog page accessed
+2024-05-20 14:46:33,499 INFO catalog Purchase made by customer Kujo
+2024-05-20 14:46:33,512 INFO catalog Home page accessed
+2024-05-20 14:46:48,659 INFO catalog User Kujo logged out.
+2024-05-20 14:46:48,689 INFO catalog Home page accessed
+2024-05-20 14:47:02,213 INFO catalog Staff member Bruno logged in successfully.
+2024-05-20 14:47:02,236 INFO catalog Home page accessed
+2024-05-20 14:47:05,105 INFO catalog Staff profile page accessed
+2024-05-20 14:47:10,313 INFO catalog Sales info page accessed
+2024-05-20 14:47:21,907 INFO catalog Client info page accessed
+2024-05-20 14:47:27,613 INFO catalog Feedback page accessed
+2024-05-20 14:50:42,121 INFO catalog Home page accessed
+2024-05-20 14:50:45,003 INFO catalog City grouped page accessed.
+2024-05-20 14:50:50,486 INFO catalog Base statistics page accessed.
+2024-05-20 14:50:59,361 INFO catalog Analysis page accessed by superuser.
+2024-05-20 14:52:42,158 INFO catalog Home page accessed
+2024-05-20 14:52:44,390 INFO catalog User Petr logged out.
+2024-05-20 14:52:44,416 INFO catalog Home page accessed
+2024-05-20 14:54:12,555 INFO catalog Customer logged in: Kujo
+2024-05-20 14:54:12,581 INFO catalog Home page accessed
+2024-05-20 14:54:21,807 INFO catalog Catalog page accessed

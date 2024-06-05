@@ -1,0 +1,86 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Анализ данных</title
+>{%endblock%}
+<h1>Анализ данных</h1>
+<h2>Ежемесячный объем продаж игрушек</h2>
+
+<table>
+    <tr>
+        <th>Месяц</th>
+        <th>Игрушка</th>
+        <th>Объем продаж</th>
+    </tr>
+    {% for sale in monthly_sales %}
+    <tr>
+        <td>{{ sale.month|date:"Y-m" }}</td>
+        <td>{{ sale.toy__name }}</td>
+        <td>{{ sale.total_sales }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<form method="GET" action="" enctype="multipart/form-data">
+    <ul>
+        <img src="data:image/png;base64,{{ image }}" height="500" width="800" />
+    </ul>
+</form>
+
+<h2>Сумма за год {{yearly_income}}</h2>
+
+<h2>Количество заказов для каждого клиента</h2>
+<form method="GET" action="" enctype="multipart/form-data">
+    <ul>
+        <img
+            src="data:image/png;base64,{{ client_image }}"
+            height="500"
+            width="800"
+        />
+    </ul>
+</form>
+
+<h2>Сумма потраченная каждым клиентом</h2>
+<form method="GET" action="" enctype="multipart/form-data">
+    <ul>
+        <img
+            src="data:image/png;base64,{{ client_spent }}"
+            height="500"
+            width="800"
+        />
+    </ul>
+</form>
+
+<h2>Линейный тренд</h2>
+<p>
+    Уравнение линейного тренда имеет такой вид — y(x)=a+bx, где: y — это
+    последовательность значений, которые мы анализируем (например, продажи по
+    месяцам); x — номер периода (порядковый номер месяца); a – точка пересечения
+    с осью y на графике (минимальный уровень)
+</p>
+<form method="GET" action="" enctype="multipart/form-data">
+    <ul>
+        <img
+            src="data:image/png;base64,{{ linear_trend }}"
+            height="500"
+            width="800"
+        />
+    </ul>
+</form>
+
+<h2>Прогноз продаж</h2>
+<p>
+    Метод скользящего среднего (moving average) - это метод анализа временных
+    рядов, который используется для сглаживания колебаний данных и выявления
+    общего тренда. Он предполагает вычисление среднего значения последовательных
+    подмножеств данных (обычно фиксированного размера) и использование этого
+    значения в качестве прогноза для следующего периода.
+</p>
+<form method="GET" action="" enctype="multipart/form-data">
+    <ul>
+        <img
+            src="data:image/png;base64,{{ predict }}"
+            height="500"
+            width="800"
+        />
+    </ul>
+</form>
+{% endblock %}

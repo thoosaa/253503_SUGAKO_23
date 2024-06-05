@@ -1,0 +1,7 @@
+{% extends "base.html" %} {%block content%} {%block title
+%}<title>Вошли</title>{%endblock%}
+<h2>Welcome, {{ username }}</h2>
+<p>Your password: {{ password }}</p>
+<p style="color: red">{{ user }}</p>
+<p>Hello{{user.is_staff}}</p>
+{%endblock%}

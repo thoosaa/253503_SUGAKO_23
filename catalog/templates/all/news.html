@@ -1,0 +1,23 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Новости</title
+>{%endblock%}
+<h1>Новости</h1>
+{% if setup %}
+<p><strong>{{ setup }}</strong></p>
+{% endif %} {% if punchline %}
+<p><i>{{ punchline }}</i></p>
+{% endif %}
+<ul>
+    {% for news in news_list %}
+    <li>
+        <h2>{{ news.title }}</h2>
+        <p>{{ news.content }}</p>
+        {% if news.image %}
+        <img src="{{ news.image.url }}" alt="News Image" />
+        {% endif %}
+        <p>Created at: {{ news.created_at }}</p>
+        <p>Updated at: {{ news.updated_at }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock%}

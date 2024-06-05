@@ -1,0 +1,20 @@
+{% extends "base.html" %} {%block content%} {%block title %}<title>
+    Инфо по продажам</title
+>{%endblock%}
+<h1>Инфо по продажам</h1>
+<ul>
+    {% for sale in sale_list %}
+    <li>
+        <h2>{{ sale.customer }}</h2>
+        <h3>Игрушка: {{sale.toy}}</h3>
+        <p>Количество: {{ sale.quantity }}</p>
+        <p>Цена: {{ sale.price }}</p>
+        {%if sale.promo_code%}
+        <p>Промокод: {{ sale.promo_code }}</p>
+        {%endif%}
+        <p>Дата заказа: {{ sale.order_date }}</p>
+        <p>Дата приема: {{ sale.completion_date }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock%}

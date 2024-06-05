@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %} {% block title %}
+<title>Отзывы</title>
+{% endblock %}
+
+<h1>Отзывы</h1>
+<ul>
+    {% for feedback in feedback_list %}
+    <li>
+        <h2>{{ feedback.toy }}</h2>
+        <p>{{ feedback.text }}</p>
+        <h3>Оценка: {{ feedback.rate }}</h3>
+        <p>Покупатель: {{ feedback.customer }}</p>
+        <p>Дата добавления: {{feedback.created_at}}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

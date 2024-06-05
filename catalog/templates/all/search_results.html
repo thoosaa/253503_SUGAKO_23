@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}
+<title>Результаты поиска</title>
+{% endblock %} {% block content %}
+<h1>Результаты поиска для запроса "{{ query }}"</h1>
+<ul>
+    {% for toy in toy_list %}
+    <li>
+        <h2>{{ toy.name }}</h2>
+        <p>Тип: {{ toy.type }}</p>
+        <p>Модель: {{ toy.modals }}</p>
+        <p>
+            В производстве: {%if toy.is_manufactured %}Да{%else%} Нет {%endif%}
+        </p>
+        <h3>{{ toy.price }} руб.</h3>
+        {%if toy.is_manufactured and user.is_customer%}
+        <a href="buy/{{ toy.id }}"><button>Купить</button></a>
+        {%endif%}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

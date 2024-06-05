@@ -1,0 +1,10 @@
+{% extends "base.html" %} {%block content%}
+<h2>Последняя опубликованная новость</h2>
+<h3>{{latest_news.title}}</h3>
+<p>{{ latest_news.content }}</p>
+{% if latest_news.image %}
+<img src="{{ latest_news.image.url }}" alt="News Image" />
+{% endif %}
+<p>Created at: {{ latest_news.created_at }}</p>
+<p>Updated at: {{ latest_news.updated_at }}</p>
+{% endblock %}

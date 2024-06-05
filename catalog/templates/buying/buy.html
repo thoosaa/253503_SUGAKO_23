@@ -1,0 +1,11 @@
+{% extends "base.html" %} {%block title %}<title>Купить</title>{%endblock%}
+{%block content%}
+<h1>Buy for {{user}}</h1>
+<h2>{{toy}}</h2>
+<p>Type: {{ toy.type }}</p>
+<p>Modals: {{ toy.modals }}</p>
+<form method="post">
+    {% csrf_token %} {{form.as_p}}
+    <button type="submit">Buy</button>
+</form>
+{%endblock%}
